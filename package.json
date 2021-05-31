@@ -2,6 +2,7 @@
   "name": "redux-todo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://todo-list.com",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^5.11.10",
@@ -19,8 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-    "homepage": "https://todo-list.com",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
